@@ -1,0 +1,64 @@
+.team{
+  padding: 100px 0 60px;
+
+  &__title{
+    margin-bottom: 52px;
+  }
+  &__card{
+    text-align: center;
+    &-img{
+      width: 100%;
+    }
+    &-title{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 130%;
+      color: #3035C4;
+      margin: 43px 0 32px;
+    }
+    &-descr{
+      font-family: Lato,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      color: #23283B;
+
+    }
+  }
+  &__carousel{
+    position: relative;
+
+  }
+  &__arrow{
+    position: absolute;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-size: 20px!important;
+    font-weight: bold!important;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 56px;
+    width: 56px;
+    background-color: white!important; ;
+    border-radius: 50%!important;
+    color: #E6514A!important;
+    box-shadow: 0 10px 40px rgba(0, 11, 68, 0.22)!important;
+    &:hover{
+      background: #3035C3!important;
+      color: #FFFFFF!important;
+
+    }
+    &-prev{
+      left: -44px;
+      transform: translateX(-100%);
+    }
+    &-next{
+      right: -44px;
+      transform: translateX(100%);
+    }
+  }
+}

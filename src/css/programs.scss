@@ -1,0 +1,113 @@
+.programs{
+  padding: 100px 0 80px;
+  &__title{
+    margin: 20px 0 52px;
+  }
+
+  &__row{
+    display: flex;
+    column-gap: 20px;
+  }
+  &__col {
+   text-align: center;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+
+    &-block {
+
+      text-align: center;
+      padding: 28px 20px;
+      border-radius: 4px;
+      height: 183px;
+
+      border: 1px solid #DEDEFF;
+
+      width: 100%;
+      margin-bottom: 32px;
+
+    }
+    &-price{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      margin-bottom: 16px;
+
+      line-height: 22px;
+
+
+      color: #3035C4;
+      &-fee{
+        font-size: 40px;
+        line-height: 49px;
+      }
+
+      &-corp{
+        font-size: 22px;
+        line-height: 27px;
+      }
+
+
+
+    }
+    &-description{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+text-align: center;
+      color: #23283B;
+    }
+  }
+  &__features{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-bottom: 40px;
+    text-align: left;
+    height: 162px;
+
+    &-text{
+      font-family: Lato,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+
+      display: flex;
+      column-gap: 16px;
+
+      color: #23283B;
+
+
+      }
+
+    }
+  &__btn{
+
+    margin: 0 23.75px 20px;
+
+    
+  }
+  &__video{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #3035C4;
+
+    i{
+      margin-right: 12px;
+    }
+
+
+
+  }
+
+  }
+

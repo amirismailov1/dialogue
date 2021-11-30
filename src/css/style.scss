@@ -1,0 +1,48 @@
+@import "../libs/Fontello/css/fontello.css";
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+
+
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.title{
+  font-family: Montserrat,sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 130%;
+
+  color: #23283B;
+  text-align: center;
+
+}
+.icon-ok-circle{
+  color: #E6514A;
+
+}
+
+
+
+
+
+@import "button";
+@import "line";
+@import "introduction";
+@import "header";
+@import "programs";
+@import "trial";
+@import "overlay";
+@import "review";
+@import "team";
+

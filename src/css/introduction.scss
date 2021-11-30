@@ -1,0 +1,75 @@
+.introduction{
+  padding: 54px 0 100px;
+
+
+  background: url("../images/introduction/bc.png") bottom left/contain no-repeat;
+&__margin{
+  margin: 20px 0 42px;
+}
+  &__video {
+    max-width: 770px;
+
+    width: 100%;
+
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+    background: url("../images/introduction/welcome.png") center/cover no-repeat;
+
+    position: relative;
+    padding: 180px 0;
+    margin: 0 auto;
+
+    &-play {
+      width: 80px;
+      height: 80px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 2;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 30px;
+      &:hover{
+        background: #E6514A;
+        border: 1px solid white;
+
+        & div{
+          background: white;
+        }
+      }
+& div{
+  width: 35px;
+  height: 35px;
+  background: #3035C350;
+  clip-path: polygon(98% 51%,29% 11%,29% 82%);
+}
+
+    }
+
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: #3035C360;
+      border-radius: 12px;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+      z-index: 1;
+
+
+    }
+  }
+   
+
+
+
+
+  }

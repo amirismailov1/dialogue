@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+
+    <link rel="stylesheet" href="./src/libs/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./src/libs/owl/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+<body>
+
+
+<header class="header">
+    <div class="container">
+ <nav class="header__top">
+     <div class="header__icons">
+         <a href="#" class="icon-vkontakte header__social"></a>
+         <a href="#" class="icon-instagram header__social"></a>
+         <a href="#" class="icon-facebook header__social"></a>
+     </div>
+     <div class="header__numbers">
+         <span class="header__numbers-phone">
+             <i class="icon-phone-circled header__numbers-icon header__numbers-icon_green"></i>
+             <a class="header__numbers-tel" href="tel:+7 (495) 255-30-20">+7 (495) 255-30-20</a>
+         </span>
+         <span class="header__numbers-phone">
+             <i class="icon-phone-circled header__numbers-icon"></i>
+             <a class="header__numbers-tel" href="tel:+7 (915) 359-95-19">+7 (915) 359-95-19</a>
+         </span>
+
+     </div>
+ </nav>
+        <div class="header__bottom">
+            <h1 class="header__title">
+                <img src="./src/images/header/Logo.svg" alt="Курсы турецкого языка Диалог">
+            </h1>
+            <nav class="header__navigation">
+                <ul class="header__menu">
+                    <li class="header__list"><a class="header__link" href="">О центре</a></li>
+                    <li class="header__list"><a class="header__link" href="#programs">Онлайн обучение</a></li>
+                    <li class="header__list"><a class="header__link" href="">Отзывы</a></li>
+                    <li class="header__list"><a class="header__link" href="">База знаний</a></li>
+                    <li class="header__list"><a class="header__link" href="#contacts">Контакты</a></li>
+                </ul>
+                <button class="button header__button" type="button">
+                    <i class="icon-volume-control-phone header__button-phone"></i>
+                    <span>Заказать звонок</span>
+                </button>
+            </nav>
+
+        </div>
+    </div>
+</header>
+
+
+<div class="overlay">
+    <div class="popup">
+        <img class="popup__img" src="./src/images/overlay/Base.png" alt="Turkey">
+        <div class="popup__content">
+            <h2 class="popup__title">Подача заявки</h2>
+            <p class="popup__subtitle">Оставьте свои контактные данные и наш менеджер <br> свяжется с Вами в ближайшее время</p>
+
+        <form class="popup__form">
+            <div class="popup__form-block">
+                <label class="popup__form-label" for="name">Ваше имя и фамилия</label>
+                <input class="popup__form-input" placeholder="Имя и Фамилия" id="name" type="text"></div>
+              <div class="popup__form-block"> <label class="popup__form-label" for="tel">Ваш телефон/whatsapp</label>
+            <input class="popup__form-input" placeholder="Телефон/Whatsapp" id="tel" type="text"></div>
+            <div class="popup__form-block"><label class="popup__form-label" for="email">Ваш e-mail</label>
+                <input class="popup__form-input" placeholder="E-mail" id="email" type="text"></div>
+            <button class="button popup__form-btn" type="submit">Подать заявку</button>
+
+        </form>
+        </div>
+
+        <div class="popup__close"></div>
+    </div>
+    </div>
+
+
+<main>
+    <section class="trial">
+        <div class="container">
+            <p class="trial__description">Мы работаем онлайн ежедневно только для вас!</p>
+            <h2 class="trial__title">Начните говорить <br>
+                по-турецки уже <br> <span class="trial__title-red">через 2 месяца</span></h2>
+
+            <button type="button" class="button">Записаться на пробный урок</button>
+        </div>
+    </section>
+
+
+
+
+    <section class="introduction">
+        <div class="container">
+            <p class="line"><span class="line-before">Приветствие</span></p>
+        <h3 class="title introduction__margin">Давайте знакомиться!</h3>
+        <div class="introduction__video">
+            <a data-fancybox class="introduction__video-play" data-src="https://www.youtube.com/watch?v=40m9wMww6is">
+                <div></div>
+            </a>
+        </div>
+        </div>
+    </section>
+
+    <section class="programs" id="programs">
+        <div class="container">
+            <p class="line"><span class="line-before">ПРОГРАММЫ</span></p>
+            <h3 class="title programs__title">Наши программы обучения:</h3>
+            <div class="programs__row">
+                <div class="programs__col">
+                    <div class="programs__col-block">
+                        <h4 class="programs__col-price"><span class="programs__col-price-fee">690</span> руб.
+                        </h4>
+                        <p class="programs__col-description">7 дней доступа ко <br>
+                            всем онлайн курсам</p>
+                    </div>
+                    <ul class="programs__features">
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Проверочный тест</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Курсы от А1 до В1</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Интересные упражнения</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Подсказки экспертов</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Разговорный клуб</li>
+                    </ul>
+                   <button type="button" class="button programs__btn">Получить</button>
+                    <a class="programs__video"><i  class="icon-play-circled"></i>Смотреть презентацию</a></div>
+                <div class="programs__col">
+                    <div class="programs__col-block">
+                        <h4 class="programs__col-price">от <span class="programs__col-price-fee">1190</span> <br>
+                            руб./урок</h4>
+                        <p class="programs__col-description">Индивидуальные уроки
+                            по Skype</p>
+                    </div>
+                    <ul class="programs__features">
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Бесплатный доступ к онлайн-порталу</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Любой уровень за 32 урока</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Вы выбираете преподавателя</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Вы выбираете время занятий</li>
+
+                    </ul>
+                    <button type="button" class="button programs__btn">Записаться</button>
+                    <a class="programs__video"><i  class="icon-play-circled"></i>Смотреть презентацию</a>
+                </div>
+                <div class="programs__col">
+                    <div class="programs__col-block">
+                        <h4 class="programs__col-price">от <span class="programs__col-price-fee">15000</span> <br> руб./курс</h4>
+                        <p class="programs__col-description">Турецкий в группе онлайн
+                            за 3 месяца</p>
+                    </div>
+                    <ul class="programs__features">
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> 24 онлайн-занятия по 90 минут</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Интерактивные учебные материалы</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Бесплатный доступ к онлайн-порталу</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Закрытый форум для общения</li>
+
+                    </ul>
+                    <button type="button" class="button programs__btn">Записаться</button>
+                    <a class="programs__video"><i  class="icon-play-circled"></i>Смотреть презентацию</a>
+                </div>
+                <div class="programs__col">
+                    <div class="programs__col-block">
+                        <h4 class="programs__col-price programs__col-price-corp">Корпоративное обучение</h4>
+                        <p class="programs__col-description">Специальный курс <br> обучения сотрудников</p>
+                    </div>
+                    <ul class="programs__features">
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Обучение по уникальной программе TÖMER</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Оригинальные учебные материалы</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Интерактивные материалы в личном кабинете</li>
+                        <li class="programs__features-text"><i class="icon-ok-circle"></i> Скидка на индивидуальные занятия</li>
+
+                    </ul>
+                    <button type="button" class="button programs__btn">Подробнее</button>
+                    <a class="programs__video"><i  class="icon-play-circled"></i>Смотреть презентацию</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="review">
+        <div class="container">
+            <p class="line"><span class="line-before">Курсы</span></p>
+            <h2 class="title">Общий курс турецкого языка</h2>
+
+
+            <div class="review__tabs">
+
+
+                <ul class="review__list">
+                    <li class="review__item review__item_active">A1 <span>- начальный уровень</span></li>
+                    <li class="review__item">A2 <span>- базовый уровень</span></li>
+                    <li class="review__item">B1 <span>- средний уровень</span></li>
+                    <li class="review__item">B2 <span>- продвинутый уровень</span></li>
+                    <li class="review__item">C1 <span>- высший уровень</span></li>
+                </ul>
+
+                <div class="review__tabs-content_active review__tabs-content ">
+                    <div class="review__first">
+                        <h2>ЧТО ВЫ БУДЕТЕ УМЕТЬ ПОСЛЕ ПРОХОЖДЕНИЯ НАЧАЛЬНОГО УРОВНЯ А1:</h2>
+                        <p>По окончании данного уровня Вы можете простыми предложениями рассказать о себе, о своей семье, о своих друзьях, о работе, описать, что Вы любите и не любите делать, умеете спрашивать и отвечать который час, использовать цифры от 1 до 1 000, можете поддержать беседу на бытовые темы (ресторан, магазин, улица), задать простые вопросы собеседнику или ответить самому на темы, связанные с аспектами бытовой жизни: об отдыхе, о еде и напитках, о ежедневных делах. Можете написать простые предложения с приветствиями и поздравлениями друзьям и близким.</p>
+                        <div class="review__first-row">
+                            <div class="review__first-col">
+
+                                   <p class="review__first-col-text "><i class="icon-ok-circle"></i><span>Длительность Курса:</span></p>
+                                <p class="review__first-col-descr">64 академических часа</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review__tabs-content">
+                    Содержимое второго блока
+                </div>
+                <div class="review__tabs-content">
+                    Содержимое третьего блока
+                </div>
+                <div class="review__tabs-content">
+                    Содержимое четвертого блока
+                </div>
+                <div class="review__tabs-content">
+                    Содержимое пятого блока
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="team" id="contacts">
+        <div class="container">
+            <p class="line"><span class="line-before">ПРЕПОДАВАТЕЛИ</span></p>
+            <h2 class="title team__title">Наши преподаватели турецкого языка:</h2>
+
+            <div class="owl-carousel owl-theme owl-loaded team_carousel">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item team__card"><img class="team__card-img"  src="./src/images/team/placeholder.png" alt="">
+                        <h3 class="team__card-title">Озджан Бей</h3>
+                        <p class="team__card-descr">Здравствуйте!
+                            Меня зовут Озджан.
+                            Я работаю в языковом центре «Диалог» более 5 лет. За это время многие мои студенты научились очень хорошо говорить на моем родном и любимом турецком языке. Я веду групповые и индивидуальные занятия.
+                            Люблю, когда атмосфера на занятиях располагает к тому, чтобы обучение проходило легко, но эффективно.
+                            Жду вас в нашей школе!</p>
+                        </div>
+                        <div class="owl-item team__card"><img class="team__card-img" src="./src/images/team/placeholder.png" alt="">
+                        <h3 class="team__card-title">Айдемир Бей</h3>
+                        <p class="team__card-descr">Здравствуйте, меня зовут Айдемир. Я турок, приехал из Стамбула, где учился и работал. В России живу более 12 лет. В Москве окончил РУДН. Работаю преподавателем более 8 лет, веду групповые и индивидуальные занятия. Моя работа позволяет мне каждый день помогать моим студентам осваивать основы турецкого языка и совершенствовать уже пройденный материал. Я очень рад, что многие из моих учеников в дальнейшем применяют свои знания на практике, как в работе так и для личного общения. Жду Вас на своих занятиях!</p>
+                        </div>
+                        <div class="owl-item team__card"><img class="team__card-img" src="./src/images/team/placeholder.png" alt="">
+                        <h3 class="team__card-title">Ирина Ханым</h3>
+                        <p class="team__card-descr">Ведущий преподаватель курсов. Выпускница Анкарского Университета, педагог с большим опытом преподавания турецкого языка, профессиональный переводчик. Имеет изданные пособия по изучению турецкого языка. Использует собственные методики преподавания. Около 30 лет постоянно проживает в Турции , владеет языком на уровне носителя, регулярно участвует в конференциях и семинарах по развитию методик обучения турецкому языку иностранцам. Принимала непосредственное участие в создании учебника "Хитит", изданного языковым и исследовательским центром изучения и развития турецкого Tömer.</p>
+                        </div><div class="owl-item team__card"><img class="team__card-img"  src="./src/images/team/placeholder.png" alt="">
+                        <h3 class="team__card-title">Озджан Бей</h3>
+                        <p class="team__card-descr">Здравствуйте!
+                            Меня зовут Озджан.
+                            Я работаю в языковом центре «Диалог» более 5 лет. За это время многие мои студенты научились очень хорошо говорить на моем родном и любимом турецком языке. Я веду групповые и индивидуальные занятия.
+                            Люблю, когда атмосфера на занятиях располагает к тому, чтобы обучение проходило легко, но эффективно.
+                            Жду вас в нашей школе!</p>
+                        </div>
+                        <div class="owl-item team__card"><img class="team__card-img" src="./src/images/team/placeholder.png" alt="">
+                        <h3 class="team__card-title">Айдемир Бей</h3>
+                        <p class="team__card-descr">Здравствуйте, меня зовут Айдемир. Я турок, приехал из Стамбула, где учился и работал. В России живу более 12 лет. В Москве окончил РУДН. Работаю преподавателем более 8 лет, веду групповые и индивидуальные занятия. Моя работа позволяет мне каждый день помогать моим студентам осваивать основы турецкого языка и совершенствовать уже пройденный материал. Я очень рад, что многие из моих учеников в дальнейшем применяют свои знания на практике, как в работе так и для личного общения. Жду Вас на своих занятиях!</p>
+                        </div>
+                        <div class="owl-item team__card"><img class="team__card-img" src="./src/images/team/placeholder.png" alt="">
+                        <h3 class="team__card-title">Ирина Ханым</h3>
+                        <p class="team__card-descr">Ведущий преподаватель курсов. Выпускница Анкарского Университета, педагог с большим опытом преподавания турецкого языка, профессиональный переводчик. Имеет изданные пособия по изучению турецкого языка. Использует собственные методики преподавания. Около 30 лет постоянно проживает в Турции , владеет языком на уровне носителя, регулярно участвует в конференциях и семинарах по развитию методик обучения турецкому языку иностранцам. Принимала непосредственное участие в создании учебника "Хитит", изданного языковым и исследовательским центром изучения и развития турецкого Tömer.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="owl-nav">
+                    <div class="owl-prev team__arrow team__arrow-prev"><</div>
+                    <div class="owl-next team__arrow team__arrow-next">> </div>
+                </div>
+                <div class="owl-dots" id="dots">
+                    <div class="owl-dot active"><span></span></div>
+                    <div class="owl-dot"><span></span></div>
+                    <div class="owl-dot"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="map" style="width:100%; height:400px"></div>
+
+
+</main>
+
+
+<script>if(!window._teletypeWidget){window._teletypeWidget = window._teletypeWidget || {};!function(){var t = document.getElementsByTagName("app-teletype-root");if (t.length > 0 && _teletypeWidget.init)return;var d = new Date().getTime();var n = document.createElement("script"),c = document.getElementsByTagName("script")[0];n.id = "teletype-widget-embed",n.src = "https://widget.teletype.app/init.js?_=" + d,n.async = !0,n.setAttribute("data-embed-version", "0.1");c.parentNode.insertBefore(n, c);}();document.addEventListener("teletype.ready", function(){console.log("Teletype ready")});window.teletypeExternalId = "YXoVirPVC8BAnHb-GEV73_SOkbuzcECsY8890RvpaaigTPRUH6CWGMAvwjIE_lbg";}</script>
+<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="./src/js/jquery-3.6.0.min.js"></script>
+<script src="./src/libs/owl/owl.carousel.min.js"></script>
+<script src="./src/js/main.js"></script>
+
+</body>
+</html>
